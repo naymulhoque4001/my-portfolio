@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Naymul Hoque</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- BACKGROUND -->
+
+<div class="background">
+    <div class="ambient-orb orb-one"></div>
+    <div class="ambient-orb orb-two"></div>
+    <div class="ambient-orb orb-three"></div>
+    <div class="particle particle-1"></div>
+    <div class="particle particle-2"></div>
+    <div class="particle particle-3"></div>
+    <div class="particle particle-4"></div>
+</div>
+
+<!-- NAVBAR -->
+
+<header class="navbar">
+
+    <a href="index.html" class="brand">
+        <span>Naymul</span>
+        <strong>Hoque</strong>
+    </a>
+
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+        <button id="settingsBtn"
+                class="settings-button"
+                type="button"
+                aria-label="Open Settings">⚙</button>
+    </div>
+
+</header>
+
+<!-- CONTACT PAGE -->
+
+<main class="contact-page">
+
+    <!-- HERO -->
+
+    <section class="contact-hero">
+
+        <div class="contact-eyebrow">
+            <span></span>
+            LET'S CONNECT
+        </div>
+
+        <h1>
+            Get In <span>Touch</span>
+        </h1>
+
+        <p>
+            Have a question, an idea or an opportunity?
+            Feel free to contact me. I would be happy
+            to connect and hear from you.
+        </p>
+
+        <div class="contact-hero-line"></div>
+
+    </section>
+
+    <!-- CONTACT CONTENT -->
+
+    <section class="contact-main">
+
+        <!-- LEFT SIDE -->
+
+        <div class="contact-info reveal">
+
+            <div class="contact-heading">
+                <span>01 / CONTACT DETAILS</span>
+                <h2>Let's start a <span>conversation.</span></h2>
+                <p>
+                    You can reach me through the following
+                    contact information.
+                </p>
+            </div>
+
+            <div class="contact-info-list">
+
+                <a href="mailto:naymulhoque4001@gmail.com"
+                   class="contact-info-card">
+
+                    <div class="contact-icon">✉</div>
+
+                    <div>
+                        <small>EMAIL ADDRESS</small>
+                        <h3>Send me an email</h3>
+                        <p>naymulhoque4001@gmail.com</p>
+                    </div>
+
+                    <span class="contact-arrow">↗</span>
+
+                </a>
+
+                <div class="contact-info-card">
+
+                    <div class="contact-icon">⌖</div>
+
+                    <div>
+                        <small>LOCATION</small>
+                        <h3>Based in</h3>
+                        <p>Cumilla, Bangladesh</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="contact-note">
+                <span></span>
+                <p>
+                    Open to learning, collaboration
+                    and meaningful opportunities.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE / FORM -->
+
+        <div class="contact-form-area reveal">
+
+            <div class="contact-form-heading">
+                <span>02 / SEND A MESSAGE</span>
+                <h2>Write me a <span>message.</span></h2>
+                <p>
+                    Fill in the details below to send
+                    me an email.
+                </p>
+            </div>
+
+            <form id="contactForm"
+                  class="contact-form">
+
+                <div class="form-group">
+                    <label for="contactName">Your Name</label>
+                    <input
+                        type="text"
+                        id="contactName"
+                        name="name"
+                        placeholder="Enter your name"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactEmail">Your Email</label>
+                    <input
+                        type="email"
+                        id="contactEmail"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactSubject">Subject</label>
+                    <input
+                        type="text"
+                        id="contactSubject"
+                        name="subject"
+                        placeholder="What is this about?"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactMessage">Message</label>
+                    <textarea
+                        id="contactMessage"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message here..."
+                        required></textarea>
+                </div>
+
+                <button type="submit"
+                        class="contact-submit">
+
+                    Send Message
+                    <span>↗</span>
+
+                </button>
+
+                <p class="contact-form-note">
+                    Your email app will open with your message ready to send.
+                </p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- BOTTOM MESSAGE -->
+
+    <section class="contact-bottom reveal">
+
+        <span>THANK YOU FOR VISITING</span>
+
+        <h2>
+            Let's build something <span>meaningful.</span>
+        </h2>
+
+        <p>
+            Every great connection starts with a simple hello.
+        </p>
+
+        <a href="mailto:naymulhoque4001@gmail.com">
+            Say Hello <span>↗</span>
+        </a>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="contact-footer">
+        <p>Designed with purpose.</p>
+        <h3>Naymul <span>Hoque</span></h3>
+        <small>© 2026 • Personal Portfolio</small>
+    </footer>
+
+</main>
+
+<!-- SETTINGS OVERLAY -->
+
+<div id="settingsOverlay" class="settings-overlay">
+
+    <div class="settings-modal">
+
+        <div class="settings-header">
+
+            <div>
+                <small>PERSONALIZE</small>
+                <h2>Settings</h2>
+            </div>
+
+            <button id="closeSettings"
+                    type="button">×</button>
+
+        </div>
+
+        <div class="setting-section">
+
+            <h3>Accent Theme</h3>
+
+            <div class="theme-colours">
+
+                <button class="theme-color active"
+                        data-color="#C8A96B"
+                        title="Champagne Gold"></button>
+
+                <button class="theme-color"
+                        data-color="#3F7D68"
+                        title="Deep Emerald"></button>
+
+                <button class="theme-color"
+                        data-color="#A86A52"
+                        title="Burnished Copper"></button>
+
+                <button class="theme-color"
+                        data-color="#B8A98D"
+                        title="Warm Sand"></button>
+
+                <button class="theme-color"
+                        data-color="#8FA39A"
+                        title="Soft Sage"></button>
+
+            </div>
+
+        </div>
+
+        <div class="setting-section">
+
+            <h3>Appearance</h3>
+
+            <div class="mode-buttons">
+
+                <button class="mode-button active"
+                        data-mode="dark">Dark</button>
+
+                <button class="mode-button"
+                        data-mode="light">White</button>
+
+            </div>
+
+        </div>
+
+        <div class="setting-row">
+
+            <div>
+                <h3>Animations</h3>
+                <p>Enable cinematic motion</p>
+            </div>
+
+            <label class="switch">
+                <input type="checkbox"
+                       id="animationSetting"
+                       checked>
+                <span></span>
+            </label>
+
+        </div>
+
+        <div class="setting-row">
+
+            <div>
+                <h3>Ambient Glow</h3>
+                <p>Enable subtle lighting</p>
+            </div>
+
+            <label class="switch">
+                <input type="checkbox"
+                       id="glowSetting"
+                       checked>
+                <span></span>
+            </label>
+
+        </div>
+
+        <button id="resetSettings"
+                class="reset-button"
+                type="button">
+            Reset Settings
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

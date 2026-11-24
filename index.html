@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Naymul Hoque | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- BACKGROUND -->
+
+<div class="background">
+    <div class="ambient-orb orb-one"></div>
+    <div class="ambient-orb orb-two"></div>
+    <div class="ambient-orb orb-three"></div>
+
+    <div class="particle particle-1"></div>
+    <div class="particle particle-2"></div>
+    <div class="particle particle-3"></div>
+    <div class="particle particle-4"></div>
+    <div class="particle particle-5"></div>
+    <div class="particle particle-6"></div>
+    <div class="particle particle-7"></div>
+    <div class="particle particle-8"></div>
+</div>
+
+
+<!-- NAVBAR -->
+
+<header class="navbar">
+
+    <a href="index.html" class="brand">
+        <span>Naymul</span>
+        <strong>Hoque</strong>
+    </a>
+
+    <nav class="navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+        <button
+            id="settingsBtn"
+            class="settings-button"
+            type="button"
+            aria-label="Open Settings">
+            ⚙
+        </button>
+    </div>
+
+</header>
+
+
+<!-- HOME PAGE -->
+
+<main>
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <!-- PROFILE PHOTO -->
+
+        <div class="hero-profile">
+
+            <div class="profile-aura"></div>
+
+            <div class="profile-photo">
+                <div class="photo-ring ring-one"></div>
+                <div class="photo-ring ring-two"></div>
+
+                <img src="Photo/profile.jpg" alt="Naymul Hoque">
+            </div>
+
+            <span class="profile-status">AVAILABLE</span>
+
+        </div>
+
+        <div class="eyebrow reveal-text">
+            B.Sc STUDENT • CREATIVE DEVELOPER
+        </div>
+
+        <h1 class="hero-title">
+            <span class="hello-line">Hello, I'm</span>
+            <span class="name-line">Naymul Hoque</span>
+        </h1>
+
+        <h2 class="hero-subtitle">
+            Creating Digital Experiences
+        </h2>
+
+        <p class="hero-description">
+            Welcome to my personal portfolio.
+            I am a B.Sc student passionate about
+            programming, technology, digital projects
+            and modern user experiences.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="about.html" class="gold-button magnetic">
+                <span>Explore My Journey</span>
+                <b>→</b>
+            </a>
+
+            <a href="resume.html" class="outline-button magnetic">
+                <span>View Resume</span>
+                <b>↗</b>
+            </a>
+
+        </div>
+
+        <div class="socials">
+            <a href="#" class="social-link">GitHub</a>
+            <a href="#" class="social-link">LinkedIn</a>
+            <a href="#" class="social-link">Facebook</a>
+        </div>
+
+    </div>
+
+
+    <!-- 3D AREA -->
+
+    <div class="profile-area">
+
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+
+        <div class="depth-card">
+
+            <div class="depth-layer layer-back"></div>
+            <div class="depth-layer layer-middle"></div>
+
+            <div class="depth-main">
+
+                <span class="card-number">01</span>
+
+                <h3>
+                    Creative
+                    <br>
+                    Developer
+                </h3>
+
+                <p>Code • Design • Technology</p>
+
+                <div class="card-line"></div>
+
+            </div>
+
+        </div>
+
+        <div class="floating-info info-one">
+            <small>01</small>
+            <span>Creative</span>
+        </div>
+
+        <div class="floating-info info-two">
+            <small>02</small>
+            <span>Developer</span>
+        </div>
+
+        <div class="floating-info info-three">
+            <small>03</small>
+            <span>Explorer</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<div class="scroll-indicator">
+    <span></span>
+    <p>Scroll to explore</p>
+</div>
+
+</main>
+
+
+<!-- SETTINGS OVERLAY -->
+
+<div id="settingsOverlay" class="settings-overlay">
+
+    <div class="settings-modal">
+
+        <div class="settings-header">
+
+            <div>
+                <small>PERSONALIZE</small>
+                <h2>Settings</h2>
+            </div>
+
+            <button id="closeSettings" type="button">×</button>
+
+        </div>
+
+
+        <!-- ACCENT THEME -->
+
+        <div class="setting-section">
+
+            <h3>Accent Theme</h3>
+            <p>Choose your preferred colour</p>
+
+            <div class="theme-colours">
+
+                <button class="theme-color active"
+                        data-color="#C8A96B"
+                        title="Champagne Gold"></button>
+
+                <button class="theme-color"
+                        data-color="#3F7D68"
+                        title="Deep Emerald"></button>
+
+                <button class="theme-color"
+                        data-color="#A86A52"
+                        title="Burnished Copper"></button>
+
+                <button class="theme-color"
+                        data-color="#B8A98D"
+                        title="Warm Sand"></button>
+
+                <button class="theme-color"
+                        data-color="#8FA39A"
+                        title="Soft Sage"></button>
+
+            </div>
+
+        </div>
+
+
+        <!-- APPEARANCE -->
+
+        <div class="setting-section">
+
+            <h3>Appearance</h3>
+
+            <div class="mode-buttons">
+
+                <button class="mode-button active"
+                        data-mode="dark">
+                    Dark
+                </button>
+
+                <button class="mode-button"
+                        data-mode="light">
+                    White
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- ANIMATION -->
+
+        <div class="setting-row">
+
+            <div>
+                <h3>Animations</h3>
+                <p>Enable cinematic motion</p>
+            </div>
+
+            <label class="switch">
+                <input type="checkbox"
+                       id="animationSetting"
+                       checked>
+                <span></span>
+            </label>
+
+        </div>
+
+
+        <!-- GLOW -->
+
+        <div class="setting-row">
+
+            <div>
+                <h3>Ambient Glow</h3>
+                <p>Enable subtle lighting</p>
+            </div>
+
+            <label class="switch">
+                <input type="checkbox"
+                       id="glowSetting"
+                       checked>
+                <span></span>
+            </label>
+
+        </div>
+
+
+        <button id="resetSettings"
+                class="reset-button"
+                type="button">
+            Reset Settings
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
